@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30626.31
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Globomantics.IdentityServer", "Globomantics.IdentityServer\Globomantics.IdentityServer.csproj", "{557D4A0D-AE3F-40D6-9D4C-9E296EF45DB1}"
 EndProject
@@ -23,21 +23,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Globomantics.Api", "Globomantics.Api\Globomantics.Api.csproj", "{BF01064B-BDC6-43C1-A11B-AFEBFED7ECF9}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AF4874A2-2371-447E-823D-43687084D905}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nginx", "nginx", "{9940A564-FA42-4408-A3DA-3B4388ABEBF5}"
 	ProjectSection(SolutionItems) = preProject
-		nginx\id-local.conf = nginx\id-local.conf
 		nginx\id-local.crt = nginx\id-local.crt
 		nginx\id-local.key = nginx\id-local.key
 		nginx\id-local.pfx = nginx\id-local.pfx
 		nginx\nginx.Dockerfile = nginx\nginx.Dockerfile
+		nginx\id-local.conf = nginx\id-local.conf
 		nginx\nginx.local.conf = nginx\nginx.local.conf
-		nginx\www-local.conf = nginx\www-local.conf
-		nginx\www-local.crt = nginx\www-local.crt
-		nginx\www-local.key = nginx\www-local.key
-		nginx\www-local.pfx = nginx\www-local.pfx
 	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{DC259ABD-27AE-490B-BB41-AAFAF0F59ED7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,18 +81,18 @@ Global
 		{BF01064B-BDC6-43C1-A11B-AFEBFED7ECF9}.Release|x64.Build.0 = Release|Any CPU
 		{BF01064B-BDC6-43C1-A11B-AFEBFED7ECF9}.Release|x86.ActiveCfg = Release|Any CPU
 		{BF01064B-BDC6-43C1-A11B-AFEBFED7ECF9}.Release|x86.Build.0 = Release|Any CPU
-		{AF4874A2-2371-447E-823D-43687084D905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF4874A2-2371-447E-823D-43687084D905}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF4874A2-2371-447E-823D-43687084D905}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{AF4874A2-2371-447E-823D-43687084D905}.Debug|x64.Build.0 = Debug|Any CPU
-		{AF4874A2-2371-447E-823D-43687084D905}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{AF4874A2-2371-447E-823D-43687084D905}.Debug|x86.Build.0 = Debug|Any CPU
-		{AF4874A2-2371-447E-823D-43687084D905}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF4874A2-2371-447E-823D-43687084D905}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AF4874A2-2371-447E-823D-43687084D905}.Release|x64.ActiveCfg = Release|Any CPU
-		{AF4874A2-2371-447E-823D-43687084D905}.Release|x64.Build.0 = Release|Any CPU
-		{AF4874A2-2371-447E-823D-43687084D905}.Release|x86.ActiveCfg = Release|Any CPU
-		{AF4874A2-2371-447E-823D-43687084D905}.Release|x86.Build.0 = Release|Any CPU
+		{DC259ABD-27AE-490B-BB41-AAFAF0F59ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC259ABD-27AE-490B-BB41-AAFAF0F59ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC259ABD-27AE-490B-BB41-AAFAF0F59ED7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DC259ABD-27AE-490B-BB41-AAFAF0F59ED7}.Debug|x64.Build.0 = Debug|Any CPU
+		{DC259ABD-27AE-490B-BB41-AAFAF0F59ED7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DC259ABD-27AE-490B-BB41-AAFAF0F59ED7}.Debug|x86.Build.0 = Debug|Any CPU
+		{DC259ABD-27AE-490B-BB41-AAFAF0F59ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC259ABD-27AE-490B-BB41-AAFAF0F59ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC259ABD-27AE-490B-BB41-AAFAF0F59ED7}.Release|x64.ActiveCfg = Release|Any CPU
+		{DC259ABD-27AE-490B-BB41-AAFAF0F59ED7}.Release|x64.Build.0 = Release|Any CPU
+		{DC259ABD-27AE-490B-BB41-AAFAF0F59ED7}.Release|x86.ActiveCfg = Release|Any CPU
+		{DC259ABD-27AE-490B-BB41-AAFAF0F59ED7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

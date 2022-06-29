@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>af4874a2-2371-447e-823d-43687084d905</ProjectGuid>
+    <ProjectGuid>dc259abd-27ae-490b-bb41-aafaf0f59ed7</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/.well-known/openid-configuration</DockerServiceUrl>
     <DockerServiceName>globomantics.identityserver</DockerServiceName>
